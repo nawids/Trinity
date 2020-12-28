@@ -1,0 +1,30 @@
+body {
+    background: black;
+}
+#wrapper {
+    display:table;
+    width:400px;
+    margin: 0 auto;
+}
+
+img{
+    width: 200px;
+    height: 400px;
+}
+
+#h1 {
+  display:table-cell;
+  width:25%;
+}
+#h2 {
+  display:table-cell;
+  width:25%;
+}
+#m1 {
+  display:table-cell;
+  width:25%;
+}
+#m2 {
+  display:table-cell;
+  width:25%;
+}

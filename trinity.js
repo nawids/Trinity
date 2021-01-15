@@ -1,9 +1,9 @@
 trinity();
 function trinity()
 {
-    var date = new Date();
-    var h = date.getHours(); // 0 - 23
-    var m = date.getMinutes(); // 0 - 59
+    let date = new Date();
+    let h = date.getHours(); // 0 - 23
+    let m = date.getMinutes(); // 0 - 59
 
     if(h < 10)
     {
@@ -13,15 +13,15 @@ function trinity()
     {
         m = "0"+m;
     }
-    var h1 = h.toString().substring(0, 1);
-    var h2 = h.toString().substring(1, 2);
-    var m1 = m.toString().substring(0, 1);
-    var m2 = m.toString().substring(1, 2);
+    let h1 = h.toString().substring(0, 1);
+    let h2 = h.toString().substring(1, 2);
+    let m1 = m.toString().substring(0, 1);
+    let m2 = m.toString().substring(1, 2);
 
-    var img_h1 = "<img src=\"images/n"+h1+".png\" />";
-    var img_h2 = "<img src=\"images/n"+h2+".png\" />";
-    var img_m1 = "<img src=\"images/n"+m1+".png\" />";
-    var img_m2 = "<img src=\"images/n"+m2+".png\" />";
+    let img_h1 = "<img src=\"images/n" + h1 + ".png\" alt=\"\" />";
+    let img_h2 = "<img src=\"images/n" + h2 + ".png\" alt=\"\" />";
+    let img_m1 = "<img src=\"images/n" + m1 + ".png\" alt=\"\" />";
+    let img_m2 = "<img src=\"images/n" + m2 + ".png\" alt=\"\" />";
 
     document.getElementById("h1").innerHTML=img_h1;
     document.getElementById("h2").innerHTML=img_h2;
